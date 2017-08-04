@@ -40,7 +40,11 @@ DATABASES = {
 ### Install Modules and Dependencies
 - `cd backend`
 - `sudo pip install -r requirements.txt`
-- `cd ../frontend`
+- `sudo python manage.py makemigrations`
+- `sudo python manage.py migrate`
+- `sudo python manage.py runserver`
+- Open the other Terminal
+- `cd frontend`
 - `sudo npm install`
 - `sudo webpack`
 - `sudo npm run start`
