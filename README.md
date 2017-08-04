@@ -1,13 +1,22 @@
 ## Features
 - Add a task
+
 ![](add.gif)
+
 - Delete a task
+
 ![](delete.gif)
+
 - Done a task
+
 ![](done.gif)
+
 - Edit a task
+
 ![](edit.gif)
+
 - Sort tasks
+
 ![](sort.gif)
 
 ## Steps to Runserver
