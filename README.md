@@ -1,13 +1,19 @@
 ## Features
-- Add a task ![](add.gif)
-- Delete a task ![](delete.gif)
-- Done a task ![](done.gif)
-- Edit a task ![](edit.gif)
-- Sort tasks ![](sort.gif)
+- Add a task
+![](add.gif)
+- Delete a task
+![](delete.gif)
+- Done a task
+![](done.gif)
+- Edit a task
+![](edit.gif)
+- Sort tasks
+![](sort.gif)
 
 ## Steps to Runserver
 ### Configure Database
-- Install PostSQL, [https://www.postgresql.org/](https://www.postgresql.org/)
+- Install PostgreSQL, [https://www.postgresql.org/](https://www.postgresql.org/)
+  - Don't forget to set `pg_hba.conf`.
 - Edit settings.py
 ```
 DATABASES = {
