@@ -40,9 +40,10 @@ DATABASES = {
 ### Install Modules and Dependencies
 - `cd backend`
 - `sudo pip install -r requirements.txt`
-- `sudo python manage.py makemigrations`
+- `sudo python manage.py migrate auth`
 - `sudo python manage.py migrate`
 - `sudo python manage.py runserver`
+- (use `sudo python manage.py createsuperuser` to create your own superuser)
 - Open the other Terminal
 - `cd frontend`
 - `sudo npm install`
